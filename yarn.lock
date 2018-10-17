@@ -4228,6 +4228,11 @@ hoek@4.x.x:
   resolved "https://artifactory.zymergen.net:443/api/npm/zymergen-npm/hoek/-/hoek-4.2.1.tgz#9634502aa12c445dd5a7c5734b572bb8738aacbb"
   integrity sha1-ljRQKqEsRF3Vp8VzS1cruHOKrLs=
 
+hoist-non-react-statics@^2.5.0:
+  version "2.5.5"
+  resolved "https://artifactory.zymergen.net:443/api/npm/zymergen-npm/hoist-non-react-statics/-/hoist-non-react-statics-2.5.5.tgz#c5903cf409c0dfd908f388e619d86b9c1174cb47"
+  integrity sha1-xZA89AnA39kI84jmGdhrnBF0y0c=
+
 home-or-tmp@^2.0.0:
   version "2.0.0"
   resolved "https://artifactory.zymergen.net:443/api/npm/zymergen-npm/home-or-tmp/-/home-or-tmp-2.0.0.tgz#e36c3f2d2cae7d746a857e38d18d5f32a7882db8"
@@ -4434,6 +4439,11 @@ ignore@^4.0.6:
   resolved "https://artifactory.zymergen.net:443/api/npm/zymergen-npm/ignore/-/ignore-4.0.6.tgz#750e3db5862087b4737ebac8207ffd1ef27b25fc"
   integrity sha1-dQ49tYYgh7RzfrrIIH/9HvJ7Jfw=
 
+immer@^1.7.2:
+  version "1.7.2"
+  resolved "https://artifactory.zymergen.net:443/api/npm/zymergen-npm/immer/-/immer-1.7.2.tgz#a51e9723c50b27e132f6566facbec1c85fc69547"
+  integrity sha1-pR6XI8ULJ+Ey9lZvrL7ByF/GlUc=
+
 import-cwd@^2.0.0:
   version "2.1.0"
   resolved "https://artifactory.zymergen.net:443/api/npm/zymergen-npm/import-cwd/-/import-cwd-2.1.0.tgz#aa6cf36e722761285cb371ec6519f53e2435b0a9"
@@ -4529,7 +4539,7 @@ internal-ip@^3.0.1:
     default-gateway "^2.6.0"
     ipaddr.js "^1.5.2"
 
-invariant@^2.2.0, invariant@^2.2.2, invariant@^2.2.4:
+invariant@^2.0.0, invariant@^2.2.0, invariant@^2.2.1, invariant@^2.2.2, invariant@^2.2.4:
   version "2.2.4"
   resolved "https://artifactory.zymergen.net:443/api/npm/zymergen-npm/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
   integrity sha1-YQ88ksk1nOHbYW5TgAjSP/NRWOY=
@@ -5657,6 +5667,11 @@ locate-path@^3.0.0:
     p-locate "^3.0.0"
     path-exists "^3.0.0"
 
+lodash-es@^4.17.5:
+  version "4.17.11"
+  resolved "https://artifactory.zymergen.net:443/api/npm/zymergen-npm/lodash-es/-/lodash-es-4.17.11.tgz#145ab4a7ac5c5e52a3531fb4f310255a152b4be0"
+  integrity sha1-FFq0p6xcXlKjUx+08xAlWhUrS+A=
+
 lodash._reinterpolate@~3.0.0:
   version "3.0.0"
   resolved "https://artifactory.zymergen.net:443/api/npm/zymergen-npm/lodash._reinterpolate/-/lodash._reinterpolate-3.0.0.tgz#0ccf2d89166af03b3663c796538b75ac6e114d9d"
@@ -5666,6 +5681,11 @@ lodash.camelcase@^4.3.0:
   version "4.3.0"
   resolved "https://artifactory.zymergen.net:443/api/npm/zymergen-npm/lodash.camelcase/-/lodash.camelcase-4.3.0.tgz#b28aa6288a2b9fc651035c7711f65ab6190331a6"
   integrity sha1-soqmKIorn8ZRA1x3EfZathkDMaY=
+
+lodash.curry@^4.1.1:
+  version "4.1.1"
+  resolved "https://artifactory.zymergen.net:443/api/npm/zymergen-npm/lodash.curry/-/lodash.curry-4.1.1.tgz#248e36072ede906501d75966200a86dab8b23170"
+  integrity sha1-JI42By7ekGUB11lmIAqG2riyMXA=
 
 lodash.debounce@^4.0.8:
   version "4.0.8"
@@ -5717,7 +5737,7 @@ loglevel@^1.4.1:
   resolved "https://artifactory.zymergen.net:443/api/npm/zymergen-npm/loglevel/-/loglevel-1.6.1.tgz#e0fc95133b6ef276cdc8887cdaf24aa6f156f8fa"
   integrity sha1-4PyVEztu8nbNyIh82vJKpvFW+Po=
 
-loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.3.1:
+loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.3.1, loose-envify@^1.4.0:
   version "1.4.0"
   resolved "https://artifactory.zymergen.net:443/api/npm/zymergen-npm/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
   integrity sha1-ce5R+nvkyuwaY4OffmgtgTLTDK8=
@@ -7478,7 +7498,7 @@ prompts@^0.1.9:
     kleur "^2.0.1"
     sisteransi "^0.1.1"
 
-prop-types@^15.6.2:
+prop-types@^15.6.0, prop-types@^15.6.2:
   version "15.6.2"
   resolved "https://artifactory.zymergen.net:443/api/npm/zymergen-npm/prop-types/-/prop-types-15.6.2.tgz#05d5ca77b4453e985d60fc7ff8c859094a497102"
   integrity sha1-BdXKd7RFPphdYPx/+MhZCUpJcQI=
@@ -7681,7 +7701,7 @@ react-dev-utils@^6.0.5:
     strip-ansi "4.0.0"
     text-table "0.2.0"
 
-react-dom@16.5.2:
+react-dom@^16.5.2:
   version "16.5.2"
   resolved "https://artifactory.zymergen.net:443/api/npm/zymergen-npm/react-dom/-/react-dom-16.5.2.tgz#b69ee47aa20bab5327b2b9d7c1fe2a30f2cfa9d7"
   integrity sha1-tp7keqILq1MnsrnXwf4qMPLPqdc=
@@ -7695,6 +7715,18 @@ react-error-overlay@^5.0.5:
   version "5.0.5"
   resolved "https://artifactory.zymergen.net:443/api/npm/zymergen-npm/react-error-overlay/-/react-error-overlay-5.0.5.tgz#716ff1a92fda76bb89a39adf9ce046a5d740e71a"
   integrity sha1-cW/xqS/adruJo5rfnOBGpddA5xo=
+
+react-redux@^5.0.7:
+  version "5.0.7"
+  resolved "https://artifactory.zymergen.net:443/api/npm/zymergen-npm/react-redux/-/react-redux-5.0.7.tgz#0dc1076d9afb4670f993ffaef44b8f8c1155a4c8"
+  integrity sha1-DcEHbZr7RnD5k/+u9EuPjBFVpMg=
+  dependencies:
+    hoist-non-react-statics "^2.5.0"
+    invariant "^2.0.0"
+    lodash "^4.17.5"
+    lodash-es "^4.17.5"
+    loose-envify "^1.1.0"
+    prop-types "^15.6.0"
 
 react-scripts@2.0.5:
   version "2.0.5"
@@ -7750,7 +7782,7 @@ react-scripts@2.0.5:
   optionalDependencies:
     fsevents "1.2.4"
 
-react@16.5.2:
+react@^16.5.2:
   version "16.5.2"
   resolved "https://artifactory.zymergen.net:443/api/npm/zymergen-npm/react/-/react-16.5.2.tgz#19f6b444ed139baa45609eee6dc3d318b3895d42"
   integrity sha1-Gfa0RO0Tm6pFYJ7ubcPTGLOJXUI=
@@ -7847,6 +7879,41 @@ reduce-css-calc@^2.0.0:
   dependencies:
     css-unit-converter "^1.1.1"
     postcss-value-parser "^3.3.0"
+
+reduce-reducers@^0.1.0:
+  version "0.1.5"
+  resolved "https://artifactory.zymergen.net:443/api/npm/zymergen-npm/reduce-reducers/-/reduce-reducers-0.1.5.tgz#ff77ca8068ff41007319b8b4b91533c7e0e54576"
+  integrity sha1-/3fKgGj/QQBzGbi0uRUzx+DlRXY=
+
+redux-actions@^2.3.2:
+  version "2.6.1"
+  resolved "https://artifactory.zymergen.net:443/api/npm/zymergen-npm/redux-actions/-/redux-actions-2.6.1.tgz#42c06e94739fbe6db35db3605abb105bdb3724d8"
+  integrity sha1-QsBulHOfvm2zXbNgWrsQW9s3JNg=
+  dependencies:
+    invariant "^2.2.1"
+    lodash.camelcase "^4.3.0"
+    lodash.curry "^4.1.1"
+    reduce-reducers "^0.1.0"
+
+redux-saga-routines@^3.1.3:
+  version "3.1.3"
+  resolved "https://artifactory.zymergen.net:443/api/npm/zymergen-npm/redux-saga-routines/-/redux-saga-routines-3.1.3.tgz#bf600c8c2a6e9708c3bbd4d6577be14bde3b5551"
+  integrity sha1-v2AMjCpulwjDu9TWV3vhS947VVE=
+  dependencies:
+    redux-actions "^2.3.2"
+
+redux-saga@^0.16.2:
+  version "0.16.2"
+  resolved "https://artifactory.zymergen.net:443/api/npm/zymergen-npm/redux-saga/-/redux-saga-0.16.2.tgz#993662e86bc945d8509ac2b8daba3a8c615cc971"
+  integrity sha1-mTZi6GvJRdhQmsK42ro6jGFcyXE=
+
+redux@^4.0.1:
+  version "4.0.1"
+  resolved "https://artifactory.zymergen.net:443/api/npm/zymergen-npm/redux/-/redux-4.0.1.tgz#436cae6cc40fbe4727689d7c8fae44808f1bfef5"
+  integrity sha1-Q2yubMQPvkcnaJ18j65EgI8b/vU=
+  dependencies:
+    loose-envify "^1.4.0"
+    symbol-observable "^1.2.0"
 
 regenerate-unicode-properties@^7.0.0:
   version "7.0.0"
@@ -8817,6 +8884,11 @@ svgo@^1.0.0, svgo@^1.0.5:
     stable "~0.1.6"
     unquote "~1.1.1"
     util.promisify "~1.0.0"
+
+symbol-observable@^1.2.0:
+  version "1.2.0"
+  resolved "https://artifactory.zymergen.net:443/api/npm/zymergen-npm/symbol-observable/-/symbol-observable-1.2.0.tgz#c22688aed4eab3cdc2dfeacbb561660560a00804"
+  integrity sha1-wiaIrtTqs83C3+rLtWFmBWCgCAQ=
 
 symbol-tree@^3.2.2:
   version "3.2.2"
